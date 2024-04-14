@@ -22,7 +22,7 @@ voucher_discount = -2 if voucher == 'FunFriday' and base == 18 else 0
 total_cost  = base_cost + size_cost + pizza_type_cost + voucher_discount
 print(f"You choose:\
       \nBase: {base.capitalize()}\
-      \nSize: {size.capitalize()}\
+      \nSize: {size}\
       \nCheese: {cheese.capitalize()}\
       \nType: {pizza_type.capitalize()}\
       \nVoucher: {voucher.capitalize()}\
